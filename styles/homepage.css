@@ -1,0 +1,10 @@
+
+.twitter-timeline{
+    margin-left: auto;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: auto 250px;
+    width: 100%;
+}
