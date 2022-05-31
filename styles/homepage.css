@@ -13,4 +13,10 @@
         grid-template-columns: auto 250px;
 
     }
+
+    .twitter iframe {
+        position: sticky !important;
+        position: -webkit-sticky !important;
+        top: 98px;
+    }
 }
