@@ -1,5 +1,6 @@
 .navigation-bar {
     float: left;
+    z-index: 999;
 }
 
 .navigation-bar { 
