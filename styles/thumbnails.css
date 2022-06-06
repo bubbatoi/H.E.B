@@ -1,4 +1,32 @@
-.thumbnail-size{
-    max-width: 800px;
-    max-height: auto;
+
+.all-thumbnails{
+    display: grid;
+    grid-template-columns: repeat (12, 1fr);
+
+}
+.thumbnail-size-1{
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 200px;
+    height: 200px;
+}
+
+.thumbnail-size-2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 200px;
+    height: 200px;
+}
+
+.thumbnail-size-3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 200px;
+     height: 200px;
 }

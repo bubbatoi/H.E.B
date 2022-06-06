@@ -10,10 +10,6 @@ body {
     font-family: Tahoma;
 }
 
-
-
-
-
 main{
     min-height: calc(100vh - 100px);
     display: block;
@@ -22,17 +18,9 @@ main{
 }
 
 .grid{
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 100%; 
-}
-@media screen and (min-width:680px) {
-    .grid{
-    grid-template-columns: 1fr 1fr 1fr;
-
-    }
-}
-.grid iframe{
-    aspect-ratio: 6/16;
-    width: 100%
+    border: 1px #285e42;
+    height: 300px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
 }
