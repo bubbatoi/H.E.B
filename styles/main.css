@@ -17,6 +17,13 @@ main{
     margin: 0 auto;
 }
 
+p {
+    display: block;
+    color: #285e42 ;
+    text-align: center;
+    padding: 20px;
+}
+
 .grid{
     border: 1px #285e42;
     height: 300px;
