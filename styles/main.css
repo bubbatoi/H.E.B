@@ -25,7 +25,7 @@ p {
 }
 
 .grid{
-    border: 1px #285e42;
+    border: 10PX solid #F5C092;
     height: 300px;
     width: 50%;
     margin-left: 25%;
